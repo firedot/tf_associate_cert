@@ -23,21 +23,19 @@ The layout below is the intended structure; folders are added as the study progr
 
 ## Exam Objectives
 
-Progress tracker against the main exam domains. Check the [official study guide](https://developer.hashicorp.com/terraform/tutorials/certification-associate-tutorials) for the current, authoritative list of objectives.
+The main exam domains covered by this repository. Check the [official study guide](https://developer.hashicorp.com/terraform/tutorials/certification-associate-tutorials) for the current, authoritative list of objectives.
 
-| # | Topic | Notes | Labs |
-|---|-------|:-----:|:----:|
-| 1 | Infrastructure as Code (IaC) concepts | ☐ | ☐ |
-| 2 | Terraform's purpose and multi-cloud / provider-agnostic workflows | ☐ | ☐ |
-| 3 | Terraform basics: installation, providers, plugins | ☐ | ☐ |
-| 4 | Core workflow: `init`, `validate`, `plan`, `apply`, `destroy` | ☐ | ☐ |
-| 5 | Other CLI commands: `fmt`, `import`, `state`, `workspace`, `output`, etc. | ☐ | ☐ |
-| 6 | Modules: sourcing, inputs/outputs, versioning, the public registry | ☐ | ☐ |
-| 7 | Configuration: variables, outputs, locals, data sources, expressions, functions | ☐ | ☐ |
-| 8 | State management: backends, locking, remote state, drift | ☐ | ☐ |
-| 9 | Lifecycle, dependencies and resource meta-arguments | ☐ | ☐ |
-| 10 | Secrets and sensitive data handling | ☐ | ☐ |
-| 11 | HCP Terraform (Terraform Cloud) capabilities | ☐ | ☐ |
+1. Infrastructure as Code (IaC) concepts
+2. Terraform's purpose and multi-cloud / provider-agnostic workflows
+3. Terraform basics: installation, providers, plugins
+4. Core workflow: `init`, `validate`, `plan`, `apply`, `destroy`
+5. Other CLI commands: `fmt`, `import`, `state`, `workspace`, `output`, etc.
+6. Modules: sourcing, inputs/outputs, versioning, the public registry
+7. Configuration: variables, outputs, locals, data sources, expressions, functions
+8. State management: backends, locking, remote state, drift
+9. Lifecycle, dependencies and resource meta-arguments
+10. Secrets and sensitive data handling
+11. HCP Terraform (Terraform Cloud) capabilities
 
 ## Prerequisites
 
@@ -58,7 +56,7 @@ terraform apply
 terraform destroy
 ```
 
-> State files (`*.tfstate`), `.terraform/` directories and `*.tfvars` files are git-ignored. Never commit credentials or secrets.
+State files (`*.tfstate`), `.terraform/` directories and `*.tfvars` files are git-ignored. Never commit credentials or secrets.
 
 ## Study Resources
 
