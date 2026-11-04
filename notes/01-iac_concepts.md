@@ -1,10 +1,10 @@
-## Key concepts of Infrastructure as Code
+# 01 - Key concepts of Infrastructure as Code
 
-# What is Infrastructure as Code (IaC)
+## What is Infrastructure as Code (IaC)
 
 - defining and managing infrastructure in code files
 
-# Why it matters 
+## Why it matters 
 - allows for consistency (the same code produces the same infrastructure every time)
 - allows for version control through the use of SCM systems. This way you get history, code review through PRs, also you could get back to a previous version of the infra
 - provides means for automation and speed - whole environments could be created or destroyed in minutes; changes could be run through a CI/CD pipeline
@@ -13,7 +13,7 @@
 - Provides means for collaboration and auditing (every change is visible - who made it, when, and why)
 
 
-# Key concepts
+## Key concepts
 
 - Idempotency: applying the same configuration again makes no changes if the infra already matches it 
 - in regard to TF - Provider-agnostic: one language and one workflow work across multiple cloud providers
